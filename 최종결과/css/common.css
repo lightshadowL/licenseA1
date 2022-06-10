@@ -18,3 +18,27 @@ a:hover{
   margin:0;
   padding:0;
 }
+
+/* 헤더 */
+header{
+  width:1200px;
+  height:100px;
+  background-color:#eee;
+  margin:auto;
+}
+
+/* 콘텐츠 section */
+#section{
+  width:1200px;
+  height:500px;
+  background-color:#ddd;
+  margin:auto;
+}
+
+/* 푸터 */
+footer{
+  width:1200px;
+  height:100px;
+  background-color:#ccc;
+  margin:auto;
+}
