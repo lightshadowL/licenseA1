@@ -23,22 +23,71 @@ a:hover{
 header{
   width:1200px;
   height:100px;
-  background-color:#eee;
+  /* background-color:#eee; 변경 또는 삭제 */
   margin:auto;
+  /* 자손 배치 속성 */
+  display:flex;
+}
+
+/* 헤더 추가 와이어프레임 */
+h1{
+  width:200px;
+  height:100%;
+  background-color:#eee;
+}
+nav{
+  width:1000px;
+  height:100%;
+  background-color:#bbb;
 }
 
 /* 콘텐츠 section */
 #section{
   width:1200px;
   height:500px;
-  background-color:#ddd;
+  /* background-color:#ddd; 변경 또는 삭제*/
   margin:auto;
+}
+
+/* 콘텐츠 슬라이더 그룹, 공지,갤러리,배너, 바로가기 와이어 css */
+.slider-wrap{
+  width:100%;
+  height:300px;
+  background-color:#ddd;
+}
+.n-g-b-s{
+  width:100%;
+  height:200px;
+  /* background-color:#aaa; 변경 또는 삭제*/
+  display:flex;
+}
+.n-g-b-s>div{
+  width:400px;
+  height:100%;
+  border:1px solid black;
 }
 
 /* 푸터 */
 footer{
   width:1200px;
   height:100px;
-  background-color:#ccc;
+  /* background-color:#ccc; 변경 또는 삭제*/
   margin:auto;
+  /* 자손 배치 속성 */
+  display:flex;
+}
+footer h2{
+  width:200px;
+  height:100%;
+  background-color:#ccc;
+}
+.copy{
+  width:800px;
+  height:100%;
+  background-color:#aaa;
+}
+.sns{
+  width:200px;
+  height:100%;
+  background-color:#ccc;
 }
