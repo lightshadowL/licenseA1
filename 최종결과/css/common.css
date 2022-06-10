@@ -1,0 +1,20 @@
+@charset "utf-8";
+html,body{
+  margin:0;
+  font-family:"맑은 고딕";
+  font-size:16px;
+  background-color:#ffffff;
+  color:#333333;
+}
+a{
+  text-decoration: none;
+  color:#000000;
+}
+a:hover{
+  color:#666666;
+}
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+}
