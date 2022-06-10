@@ -9,4 +9,18 @@ $(document).ready(function(){
     })
     count++;
   },3000);
+  
+  $(".tabs>li>a").click(function(){
+    $(".tab-content").hide();
+    $(this.hash).show().css({display:"flex"});
+    $(".tabs>li>a").removeClass("active");
+    $(this).addClass("active")
+  });
+
+  $(".notic>ul>li:first-child").click(function(){
+    $(".modal-wrap").show();
+  });
+  $(".modal-close").click(function(){
+    $(".modal-wrap").hide();
+  });
 });
