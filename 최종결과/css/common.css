@@ -330,15 +330,40 @@ footer{
 footer h2{
   width:200px;
   height:100%;
-  background-color:#ccc;
+  /* background-color:#ccc; 변경 또는 삭제 */
+}
+/* 푸터로고 css */
+footer h2 a{
+  display:flex;
+  width:100%;
+  height:100%;
+  justify-content: center;
+  align-items:center;
+}
+footer h2 img{
+  width:100%;
 }
 .copy{
   width:800px;
   height:100%;
-  background-color:#aaa;
+  /* background-color:#aaa; */
+  /* 추가 */
+  display:flex;
+  justify-content: center;
+  align-items:center;
 }
 .sns{
   width:200px;
   height:100%;
-  background-color:#ccc;
+  /* background-color:#ccc; 변경 또는 수정*/
+  display:flex;
+  justify-content: space-around;
+  align-items:center;
+}
+.sns a{
+  display:inline-block;
+  width:20%;
+}
+.sns a img{
+  width:100%;
 }
